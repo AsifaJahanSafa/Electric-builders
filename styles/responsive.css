@@ -17,7 +17,37 @@
             .shopping-cart{
                 display: flex;
             }
-}
+
+
+            /* banner style */
+            .banner-con{
+               
+                flex-direction:column;
+                gap:20px;
+            
+            }
+            
+            .banner-img{
+                width:100%;
+                
+            }
+            
+            .banner-img img{
+                width:100%;
+                border-radius: 5px;
+             }
+            
+             .banner-text-con{
+                width:100%;
+                
+             }
+            
+            
+             .banner-button-con{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+             }}
 
 @media screen and (min-width:501px) and (max-width:992px) {
     .hambarger-icon{
@@ -38,4 +68,39 @@
         .shopping-cart{
             display: flex;
         }
+
+
+        /* banner style */
+        .banner-con{
+               
+            flex-direction:column;
+            gap:20px;
+        
+        }
+        
+        .banner-img{
+            width:100%;
+            
+        }
+        
+        .banner-img img{
+            width:100%;
+            border-radius: 5px;
+         }
+        
+         .banner-text-con{
+            width:100%;
+            
+         }
+        
+        
+         .banner-button-con{
+            display: flex;
+            display: flex;
+    flex-direction:row;
+    
+    justify-content: center;
+    align-items: center;
+    margin:20px auto
+         }
 }
