@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.poppins-font {
+    font-family: "Poppins", sans-serif;
+    
+    font-style: normal;
+  }
+  
+header{
+    background-color: gray;
+}
+.nav-container{
+    
+    max-width: 1046px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px auto;
+    padding:20px ;
+    color:white
+    
+}
+
+
+.hambarger-icon{
+    display:none;
+}
+
+.shopping-cart{
+    display: none;
+}
+
+.nav-menue a {
+    color:white;
+    margin-left: 20px;
+    text-decoration: none;
+    
+
+font-family: Poppins;
+font-size: 14px;
+
+font-weight: 600;
+line-height: normal;
+}
