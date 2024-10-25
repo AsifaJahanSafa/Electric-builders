@@ -1,4 +1,4 @@
-@media screen and (max-width:500px) {
+@media screen and (max-width:703px) {
         .hambarger-icon{
             display: flex;
         }
@@ -7,6 +7,11 @@
             display: none;
         }
         
+        .nav-container{
+            padding:20px;
+            margin:0px auto
+              
+          }
         .nav-title{
             color: #3A3A3A;
             font-size: 16px;
@@ -47,9 +52,62 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-             }}
+                justify-content: center;
+                gap:10px
+             }
+             /* <!-- market-place style start --> */
 
-@media screen and (min-width:501px) and (max-width:992px) {
+             .market-place-con{
+                
+                flex-direction:row;
+                flex-wrap: wrap;
+                margin:20px auto;
+                border:none
+                
+             }
+
+             /* poular-collection */
+             .popular-card-container{
+                
+                grid-template-columns:1fr;
+                gap:20px;
+                justify-items: center;
+                align-items: center;
+            
+           }
+
+           .card-1{
+            grid-column:1/span 1;
+        }
+        .card-2{
+            grid-column:1/span 1;
+        }
+        .card-3{
+            grid-column:1/span 1;
+        }
+        .card-4{
+            grid-column:1/span 1;
+        }
+        .card-5{
+            grid-column:1/span 1;
+        }
+        
+        .card-6{
+            grid-column:1/span 1;
+        }
+        .card-7{
+            grid-column:1/span 1;
+        }
+        .card-8{
+            grid-column:1/span 1;
+        }
+        .card-9{
+            grid-column:1/span 1;
+        }
+
+            }
+
+@media screen and (min-width:703px) and (max-width:992px) {
     .hambarger-icon{
         display: flex;
     }
@@ -58,6 +116,10 @@
         display: none;
     }
     
+    .nav-container{
+      padding:20px
+        
+    }
     .nav-title{
         color: #3A3A3A;
         font-size: 16px;
@@ -72,35 +134,86 @@
 
         /* banner style */
         .banner-con{
-               
-            flex-direction:column;
-            gap:20px;
-        
-        }
-        
-        .banner-img{
-            width:100%;
+           
+            flex-direction: row;
+           
             
+        }
+        .banner-img{
+            width: 49%;
+        
         }
         
         .banner-img img{
             width:100%;
-            border-radius: 5px;
-         }
         
-         .banner-text-con{
-            width:100%;
-            
-         }
-        
+        }
+        .banner-text-con{
+            width: 49%;
+        }
         
          .banner-button-con{
             display: flex;
-            display: flex;
-    flex-direction:row;
-    
-    justify-content: center;
-    align-items: center;
-    margin:20px auto
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            margin:20px auto;
+            gap:10px
          }
+/*  <!-- market-place style start --> */
+.market-place-con{
+                
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px
+    
+   
+    
+ }
+
+       /* poular-collection */
+
+ /* poular-collection */
+ .popular-card-container{
+                
+    grid-template-columns:repeat(2, 1fr);
+   
+    gap:20px
+
+}
+
+.card-1{
+grid-column:1/span 1;
+}
+.card-2{
+grid-column:2/span 1;
+}
+.card-3{
+grid-column:1/span 1;
+}
+.card-4{
+grid-column:2/span 1;
+}
+.card-5{
+grid-column:1/span 1;
+}
+
+.card-6{
+grid-column:2/span 1;
+}
+.card-7{
+grid-column:1/span 1;
+}
+.card-8{
+grid-column:2/span 1;
+}
+.card-9{
+grid-column:1/span 1;
+}
+
+
+
+
 }

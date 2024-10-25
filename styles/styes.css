@@ -10,24 +10,22 @@
     font-style: normal;
   }
   
-header{
+.header{
     background-color: gray;
 }
 .nav-container{
-    
     max-width: 1046px;
-   
+    margin:0px auto;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin:0px auto;
-    padding:20px ;
     color:white;
-    
-    
     
 }
 
+.none{
+    display: none;
+}
 
 .hambarger-icon{
     display:none;
@@ -37,7 +35,34 @@ header{
     display: none;
 }
 
-.nav-menue a {
+.nav-menue a{
+    margin-left: 30px;
+    color:white;
+    text-decoration: none;
+}
+
+/* banner-style */
+.banner-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px
+}
+.banner-img{
+    width: 49%;
+
+}
+
+.banner-img img{
+    width:100%;
+
+}
+.banner-text-con{
+    width: 49%;
+}
+/* poular-collection */
+.poular-collection {
     color:white;
     margin-left: 20px;
     text-decoration: none;
@@ -101,3 +126,118 @@ line-height: normal;
     background-color: black;
     color:white
  }
+
+ /*  <!-- market-place style start --> */
+ .market-place-con{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width:1046px ;
+    border-top: 2px solid rgba(192, 204, 218, 0.60);
+    border-bottom:2px solid rgba(192, 204, 218, 0.60);
+    margin:50px auto;
+    padding:30px;
+ }
+
+.market-place{
+    
+}
+ .market-place img{
+    width: 100%;
+ }
+
+ /* popular-collection style */
+
+ .popular-collection{
+    max-width:1046px ;
+    margin:50px auto;
+}
+
+ .popular-tilte{
+    
+    font-size: 28px;
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom:30px;
+
+
+ }
+
+ .card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding:20px;
+
+}
+
+.star{
+    color:#FB8200
+}
+
+.card-title{
+    color:#18191F;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.card-price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.rating,.card-des {
+    color:#5E6366;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.popular-card-container{
+    display:grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:20px;
+    justify-items: center;
+    align-items: center;
+
+
+
+}
+.none{
+    display: none;
+}
+.card-1{
+    grid-column:1/span 4;
+}
+.card-2{
+    grid-column:5/span 4;
+}
+.card-3{
+    grid-column:9/span 4;
+}
+.card-4{
+    grid-column:1/span 4;
+}
+.card-5{
+    grid-column:5/span 4;
+}
+
+.card-6{
+    grid-column:9/span 4;
+}
+.card-7{
+    grid-column:1 /span 4;
+}
+.card-8{
+    grid-column:5/span 4;
+}
+.card-9{
+    grid-column:9/span 4;
+}
